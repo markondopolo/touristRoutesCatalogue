@@ -2,7 +2,7 @@ package app.model;
 
 public class Route {
     private String routeDescription;
-    private int price;
+    private double price;
     private double grade;
 
     public Route() {}
@@ -17,7 +17,7 @@ public class Route {
         return routeDescription;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
